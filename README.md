@@ -1,4 +1,4 @@
-# MplsOverSDN
+# MPLS over SDN
 
 Bachelor of Science, Information Technology, *Computer Network Laboratory*, **University of Tehran**
 
