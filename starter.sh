@@ -45,12 +45,14 @@ sleep 1
 
 
 echo -------------------- ${cmds1} --------------------
-gnome-terminal -- ${cmds1}
+#gnome-terminal -- ${cmds1}
+${cmds1} &
 sleep 1
 
 
 echo -------------------- ${cmds2} --------------------
-gnome-terminal -- ${cmds2}
+#gnome-terminal -- ${cmds2}
+${cmds2}
 
 
 if [[ $2 == "noview" ]] || [[ $3 == "noview" ]]
@@ -59,5 +61,6 @@ then
 fi
 
 echo -------------------- ${cmds3} --------------------
-gnome-terminal -- ${cmds3}
+# gnome-terminal -- ${cmds3}
+${cmds3}
 exit 0
