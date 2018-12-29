@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo apt update
 sudo apt-get install mininet
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
